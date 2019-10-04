@@ -9,11 +9,11 @@ const PlayersCard = ({players}) => {
         <div className="player-card">
           <Card>
             <CardBody>
-              <CardTitle>{players.name}</CardTitle>
+              <CardTitle>Name of Player: {players.name}</CardTitle>
             </CardBody>
             <CardBody>
-              <CardText>{players.country}</CardText>
-              <CardText>{players.searches}</CardText>
+              <CardText>Palyer's Country: {players.country}</CardText>
+              <CardText># of searches: {players.searches}</CardText>
             </CardBody>
           </Card>
         </div>
