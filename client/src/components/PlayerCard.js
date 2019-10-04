@@ -6,17 +6,17 @@ import {
 
 const PlayersCard = ({players}) => {
   return (
-    <div>
-      <Card>
-        <CardBody>
-          <CardTitle>{players.name}</CardTitle>
-        </CardBody>
-        <CardBody>
-          <CardText>{players.country}</CardText>
-          <CardText>{players.searches}</CardText>
-        </CardBody>
-      </Card>
-    </div>
+        <div className="player-card">
+          <Card>
+            <CardBody>
+              <CardTitle>{players.name}</CardTitle>
+            </CardBody>
+            <CardBody>
+              <CardText>{players.country}</CardText>
+              <CardText>{players.searches}</CardText>
+            </CardBody>
+          </Card>
+        </div>
   );
 };
 

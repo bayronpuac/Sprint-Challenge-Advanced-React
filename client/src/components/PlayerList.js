@@ -25,7 +25,7 @@ class PlayerList extends React.Component {
                 {this.state.players.map( players => {
                     return (
                         <div>
-                            <PlayerCard players={players} />;
+                            <PlayerCard key={players} players={players} />;
                         </div>
                     )
                 })}

@@ -60,6 +60,16 @@
 .toggled {
   left: 18px;
 }
+.player-card {
+  display: flex; 
+  flex-direction: column;
+  width: 30%;
+  border: 2px solid black;
+  margin: 1rem 0;
+  text-align: left;
+  padding: .25rem;
+}
+
 .dark-mode {
   color: #fff;
   background-color: #313843;
