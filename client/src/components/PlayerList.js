@@ -10,7 +10,7 @@ class PlayerList extends React.Component {
     componentDidMount() {
         axios
         .get("http://localhost:5000/api/players")
-        .then (res => {
+        .then(res => {
             console.log(res);
             this.setState({
                 players: res.data
@@ -33,3 +33,5 @@ class PlayerList extends React.Component {
         )
     }
 }
+
+export default PlayerList; 
