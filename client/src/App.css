@@ -31,3 +31,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+.players {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle{
+  background: #f68819;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+.player-card {
+  display: flex; 
+  flex-direction: column;
+  width: 30%;
+  border: 2px solid black;
+  margin: 1rem 0;
+  text-align: left;
+  padding: .25rem;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
